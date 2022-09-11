@@ -5,7 +5,6 @@ Array.prototype.myMap = function (cb) {
   for (let i = 0; i < this.length; i++) {
     temp.push(cb(this[i], i, this));
   }
-
   return temp;
 }
 
